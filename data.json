@@ -1,0 +1,100 @@
+[
+  {
+    "nombreproducto": "Totem",
+    "precio": 500,
+    "img": "https://scontent.feze10-1.fna.fbcdn.net/v/t39.30808-6/348601797_805366900689754_6663879237027060947_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_eui2=AeGm2UNGLcMofwwSo3FVgZSKqlvaSRIw646qW9pJEjDrjlAicpm7yZqOhn2uj5gpUw89bsNpOA_OTYwn7WU81GpB&_nc_ohc=YTEALIfFu4wAX-sf9CP&_nc_ht=scontent.feze10-1.fna&oh=00_AfAIK-tgJY3VBlcNvaNRX5tLK7XbTZRhnPJreKVf4eY2zQ&oe=6472CFAE",
+    "id": 1,
+    "cantidad": 1
+  },
+  {
+    "nombreproducto": "Muñequito",
+    "precio": 5605,
+    "img": "https://i.pinimg.com/564x/30/e5/c9/30e5c92f9867153a57e419427f6c2037.jpg",
+    "id": 2,
+    "cantidad": 1
+  },
+  {
+    "nombreproducto": "Tematicos",
+    "precio": 50034,
+    "img": "https://i.pinimg.com/originals/00/54/8a/00548ad5757100ce03c7d8013af0cdd6.jpg",
+    "id": 3,
+    "cantidad":1
+  },
+  {
+    "nombreproducto": "Arco decorativo",
+    "precio": 14500,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_835773-MLA54925744903_042023-F.webp",
+    "id": 4,
+    "cantidad":1
+  },
+  {
+    "nombreproducto": "Combo infantil",
+    "precio": 34605,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_661832-MLA51344899189_082022-F.webp",
+    "id": 5,
+    "cantidad":1
+  },
+  {
+    "nombreproducto": "Globos fluor",
+    "precio": 1034,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_682134-MLA51327130120_082022-F.webp",
+    "id": 6,
+    "cantidad":1
+  },
+  {
+    "nombreproducto": "Letras",
+    "precio": 4500,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_641882-MLA41444509559_042020-F.webp",
+    "id": 7,
+    "cantidad":1
+  },
+  {
+    "nombreproducto": "Globos perlados",
+    "precio": 3605,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_624630-MLA44114391675_112020-F.webp",
+    "id": 8,
+    "cantidad":1
+  },
+  {
+    "nombreproducto": "Star wars",
+    "precio": 50034,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_994117-MLA53132950319_012023-F.webp",
+    "id": 9,
+    "cantidad":1
+  },
+  {
+    "nombreproducto": "Marsahl el oso",
+    "precio": 34605,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_677621-MLA54389259828_032023-F.webp",
+    "id": 10,
+    "cantidad":1
+  },
+  {
+    "nombreproducto": "Pokebolas",
+    "precio": 1034,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_945763-MLA52968715455_122022-F.webp",
+    "id": 11,
+    "cantidad":1
+  },
+  {
+    "nombreproducto": "San Lorenzo",
+    "precio": 4500,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_776273-MLA51481809096_092022-F.webp",
+    "id": 12,
+    "cantidad":1
+  },
+  {
+    "nombreproducto": "Metalizados",
+    "precio": 3605,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_775457-MLA43697059102_102020-F.webp",
+    "id": 13,
+    "cantidad":1
+  },
+  {
+    "nombreproducto": "Globos Led",
+    "precio": 50034,
+    "img": "https://http2.mlstatic.com/D_NQ_NP_2X_857035-MLA49736471257_042022-F.webp",
+    "id": 14,
+    "cantidad":1
+  }
+]
