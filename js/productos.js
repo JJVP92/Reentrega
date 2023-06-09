@@ -1,6 +1,7 @@
 const tienda = document.getElementById("tienda");
 const mostrador = document.getElementById("mostrador")
 const caja = document.getElementById("caja")
+const resumenhtml= document.getElementById("resumenhtml")
 
 let carro = JSON.parse(localStorage.getItem("carro")) || [];
 const productoslocal = async () => {
@@ -11,7 +12,7 @@ const productoslocal = async () => {
     showtienda.className = "showtienda";
     showtienda.innerHTML = `
         <img class="imagenestienda" src="${productos.img}">
-        <h3 class= "nombreproducto">${productos.nombreproducto}</h3>
+        <h3 class= "nombre">${productos.nombre}</h3>
         <p class="precio">${productos.precio} $</p>
         
          `;
@@ -40,7 +41,7 @@ const productoslocal = async () => {
         carro.push({
           id: productos.id,
           img: productos.img,
-          nombre: productos.nombreproducto,
+          nombre: productos.nombre,
           precio: productos.precio,
           cantidad: productos.cantidad,
         });

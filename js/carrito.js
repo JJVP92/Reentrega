@@ -26,7 +26,7 @@ const pintarCarrito = () => {
         contenedordeproducto.className = "contenedordeproductos"
         contenedordeproducto.innerHTML = `
       <img class="imagenesdelcarrito" src="${productos.img}">
-      <h2>${productos.nombreproducto}</h2>
+      <h2>${productos.nombre}</h2>
       <h2>$ ${productos.precio}</h2>
       <span class="delete-product"> ❌ </span>
       <h2>x ${productos.cantidad}</h2>
@@ -36,6 +36,7 @@ const pintarCarrito = () => {
         eliminar.addEventListener("click", () => {
             eliminarProducto(productos.id);
         });
+        
 
     })
 
@@ -65,13 +66,41 @@ const pintarCarrito = () => {
         localStorage.removeItem("carro");
     })
     totaltotal.append(borrar)
+
+
+    const finalizar = document.createElement ("button")
+    finalizar.innerText= "Finalizar compra"
+    finalizar.addEventListener("click", ()=> {
+        if (carro.length === 0) {
+            Swal.fire({
+                icon: 'error',
+                title: 'Oops...',
+                text: 'agrege productos al carrito',
+                
+              })
+          } else {
+        
+          
+        const { value: email } =  Swal.fire({
+            title: 'Muchas gracias por tu compra! ingresa tu email, para poder contactarnos 😘❤',
+            input: 'email',
+            inputPlaceholder: 'Ingresa tu email'
+          })
+          
+          if (email) {
+            Swal.fire(`Entered email: ${email}`)
+          }
+        }
+
+    })
+    totaltotal.append(finalizar)
 };
 mostrador.addEventListener("click", pintarCarrito);
 
 const eliminarProducto = (id) => {
     const foundId = carro.find((element) => element.id === id);
 
-    console.log(foundId);
+    
 
     carro = carro.filter((carroId) => {
         return carroId !== foundId;
