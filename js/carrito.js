@@ -29,7 +29,8 @@ const pintarCarrito = () => {
       <h2>${productos.nombre}</h2>
       <h2>$ ${productos.precio}</h2>
       <span class="delete-product"> ❌ </span>
-      <h2>x ${productos.cantidad}</h2>
+      <h2>Total por producto: ${productos.cantidad * productos.precio} $</h2>
+      <h2>cantidad:x ${productos.cantidad}</h2>
       `;
         caja.append(contenedordeproducto)
         let eliminar = contenedordeproducto.querySelector(".delete-product");
@@ -40,7 +41,7 @@ const pintarCarrito = () => {
 
     })
 
-    const total = carro.reduce((acc, elemento) => acc + elemento.precio, 0);
+    const total = carro.reduce((acc, elemento) => acc + elemento.precio * elemento.cantidad, 0);
     const totaltotal = document.createElement("div");
     totaltotal.className = "total"
     totaltotal.innerHTML = `<h3>Precio a pagar: ${total}</h3>`;
@@ -91,6 +92,9 @@ const pintarCarrito = () => {
             Swal.fire(`Entered email: ${email}`)
           }
         }
+        caja.style.display = "none"
+        carro = []
+        saveLocal();
 
     })
     totaltotal.append(finalizar)
